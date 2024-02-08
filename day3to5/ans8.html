@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+		h3, b{
+			color: red;
+		}
+		.a{
+			color: black;
+		}
+	</style>
+	<title>Form Using Table</title>
+</head>
+<body>
+	<h3>*Manadetory To Fill</h3>  
+	<table> 
+		<form>
+			<tr> 
+				<td><label for="fname">First Name</label></td>
+				<td><input type="text" name="fname" required><b>*</b></td>
+			</tr>
+			<tr> 
+				<td><label for="lname">Last Name</label></td>
+				<td><input type="text" name="lname"></td>
+			</tr>
+			<tr> 
+				<td><label for="birth">Birth Day</label></td>
+				<td><input type="date" name="bday"></td>
+			</tr>
+			<tr> 
+				<td><label for="username" >Username</label></td>
+				<td><input type="text" name="username" required><b>*</b></td>
+			</tr>
+			<tr> 
+				<td><label for="email">Email</label></td>
+				<td><input type="email" name="email"></td>
+			</tr>
+			<tr> 
+				<td><label for="web">Website</label></td>
+				<td><input type="text" name="web"></td>
+			</tr>
+			<tr> 
+				<td><label for="password">Password</label></td>
+				<td><input type="password" name="password" required><b>*</b></</td>
+			</tr>
+			<tr> 
+				<td><label for="cpassword">Re-Password</label></td>
+				<td><input type="password" name="cpassword" required><b>*</b></td>
+			</tr>
+			<tr> 
+				<td><input type="checkbox" name="tc"></td>
+				<td><label for="tc">I agree to term and conditions</label></td>
+			</tr>
+			<tr>
+				<td>
+					<input type="submit" name="submit">
+				</td>
+			</tr>
+		</form> 
+	</table> 	
+</body>
+</html>
+ 
